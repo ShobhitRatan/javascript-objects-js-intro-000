@@ -6,3 +6,8 @@ function updatePlaylist(playlist, artistName, songTitle) {
   playlist['Phil Ochs'] = 'song3';
   return playlist;
 }
+
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.Slowdive;
+  return playlist;
+}
